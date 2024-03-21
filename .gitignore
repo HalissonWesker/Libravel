@@ -1,0 +1,24 @@
+# Arquivos de sistema que devem ser ignorados
+/vendor
+/node_modules
+
+# Arquivos de ambiente
+.env
+
+# Logs e caches
+/storage/*.log
+/storage/app/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/app/public/storage
+/storage/app/public/uploads
+/storage/debugbar
+
+# Arquivos gerados pelo servidor da aplicação
+/public/storage
+
+# Arquivos de configuração local
+Homestead.yaml
+Homestead.json
